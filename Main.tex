@@ -1,0 +1,71 @@
+\documentclass[12pt, a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+
+\usepackage[sfdefault]{roboto}
+\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage[
+  a4paper,
+  top=2.5cm,
+  bottom=2.5cm,
+  left=2.5cm,
+  right=2.5cm
+]{geometry}
+
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{hyperref}
+
+\begin{document}
+
+% === Title page ===
+\begin{titlepage}
+  {\centering
+
+  \vskip 4.5cm
+  {\Large Document Type}\\
+  (e.g. Report, Documentation, Summary)\\
+  \vskip 1.5cm
+  {\LARGE{\textbf{Document Title}}}\\
+  \vskip 0.2cm
+  {\LARGE{\text{Subtitle or Description}}}\\
+  \vskip 2cm
+
+  % Author 1
+  First Last\\
+  \vskip 0.2cm
+  % Author 2 (uncomment if needed)
+  % First Last\\
+  % \vskip 0.2cm
+
+  \vskip 2.0cm
+  {\small Date: \today}\\
+  \vskip 4.0cm
+
+  \vfill
+  }
+\end{titlepage}
+% =============================================
+
+
+
+
+\setcounter{page}{2}
+\pagestyle{plain}
+
+\input{Sections/01_Topic1}
+\input{Sections/02_Topic2}
+\input{Sections/03_Topic3}
+
+% Uncomment to include bibliography:
+% \bibliographystyle{plain}
+% \bibliography{bibliography}
+
+\end{document}
+\endinput
