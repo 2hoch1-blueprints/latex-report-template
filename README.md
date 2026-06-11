@@ -1,1 +1,3 @@
-# latex-letter-template
+# `latex-report-template`
+
+A LaTeX template for writing reports.
